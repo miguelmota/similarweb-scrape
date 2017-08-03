@@ -2,7 +2,7 @@
 
 > Scrapes [SimilarWeb](https://www.similarweb.com/) site to get analytics for domain.
 
-#### NOTE: Due to SimilarWeb's bot detection, this will only work for a very few number of requests. Only use this for experimenting. Do not use this for production.
+NOTE: Due to SimilarWeb's bot detection, this will only work for a very few number of requests. Only use this for experimenting. Do not use this for production. Also, this module will most likely break in the future when SimilarWeb updates their DOM selectors.
 
 ## Install
 
@@ -43,8 +43,6 @@ getData(domain)
 ```bash
 npm test
 ```
-
-NOTE: this module will most likely break in the future when SimilarWeb updates their DOM selectors.
 
 ## License
 
